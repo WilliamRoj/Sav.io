@@ -1,0 +1,23 @@
+{
+  "name": "sav.io",
+  "version": "1.0.0",
+  "description": "Automated Software Testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamRoj/Sav.io.git"
+  },
+  "keywords": [
+    "Automation",
+    "Webdriver"
+  ],
+  "author": "William Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamRoj/Sav.io/issues"
+  },
+  "homepage": "https://github.com/WilliamRoj/Sav.io#readme"
+}
