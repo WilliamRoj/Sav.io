@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/WilliamRoj/Sav.io/issues"
   },
-  "homepage": "https://github.com/WilliamRoj/Sav.io#readme"
+  "homepage": "https://github.com/WilliamRoj/Sav.io#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.16.16"
+  }
 }
