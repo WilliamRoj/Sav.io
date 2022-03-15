@@ -1,6 +1,6 @@
 class App {
     openHomepage() {
-        broser.url('forwardfreightlogistics.net')
+        browser.url('https://forwardfreightlogistics.net/')
     }
 }
 
