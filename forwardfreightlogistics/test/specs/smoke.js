@@ -1,16 +1,30 @@
 import App from '../../../pageobjects/App'
 import Navbar from '../../../pageobjects/components/Navbar'
+import Xpaths from '../../../pageobjects/components/xpaths'
 
 describe('Smoke Test - Make sure all pages load', () => {
     it('Should load home page form', () => {
         App.openHomepage()
-        $('//*[@id="1467810594"]').waitForExist()
+        Xpaths.homePageTitle.waitForExist()
     })
 
-    it('Should click on hamburger icon then click on Our Services link', () => {
+    it('Should click and load Our Services link', () => {
         Navbar.clickOurServices()
-        Navbar.ourServices.waitForExist()
+        Xpaths.ourServicesTitle.waitForExist()
     })
 
-    
+    it('Should click and load Contact link', () => {
+        Navbar.clickContactLink()
+        Xpaths.contactPageTitle.waitForExist()
+    })
+
+    it('Should click and load Our Team link', () => {
+        Navbar.clickOurTeamLink()
+        Xpaths.ourTeamPageTitle.waitForExist()
+    })
+
+    it('Should click and load Join Our Team link', () => {
+        Navbar.clickJoinOurTeam()
+        Xpaths.joinOurTeamTitle.waitForExist()
+    })
 })
