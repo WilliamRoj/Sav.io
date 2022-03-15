@@ -1,4 +1,4 @@
-import Base from '../Base'
+import Base from '../../Base'
 
 class Xpaths extends Base {
     get homePageTitle() {

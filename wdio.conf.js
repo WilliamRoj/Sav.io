@@ -22,6 +22,7 @@ exports.config = {
     //
     specs: [
         'forwardfreightlogistics/test/specs/smoke.js'
+        
     ],
     // Patterns to exclude.
     exclude: [

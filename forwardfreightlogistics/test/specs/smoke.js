@@ -1,6 +1,6 @@
 import App from '../../../pageobjects/App'
-import Navbar from '../../../pageobjects/components/Navbar'
-import Xpaths from '../../../pageobjects/components/xpaths'
+import Navbar from '../../../pageobjects/components/ForwardFreight/Navbar'
+import Xpaths from '../../../pageobjects/components/ForwardFreight/xpaths'
 
 describe('Smoke Test - Make sure all pages load', () => {
     it('Should load home page form', () => {
